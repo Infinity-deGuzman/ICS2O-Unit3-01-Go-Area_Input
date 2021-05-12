@@ -11,7 +11,7 @@ func main() {
 	// This function prints the address
 	var aBase int
 	var bBase int
-  var height int
+	var height int
 
 	// input
 	fmt.Println("This program calculates the area of a trapezoid.")
@@ -24,6 +24,6 @@ func main() {
 	fmt.Scanln(&height)
 
 	// output
-	fmt.Println("The area is: ", ((aBase + bBase) / 2) * height, "cm²")
+	fmt.Println("The area is: ", ((aBase+bBase)/2)*height, "cm²")
 	fmt.Println("\nDone.")
 }
